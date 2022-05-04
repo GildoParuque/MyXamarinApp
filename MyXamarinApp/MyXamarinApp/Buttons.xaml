@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyXamarinApp.Buttons"
+             BackgroundColor="#112B47"
+             >
+    <ContentPage.Content>
+        <StackLayout Margin="20,35,20,20">
+            <Button Text="Save" Clicked="Button_Clicked"
+                    Background="Red"
+                    TextColor="White"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    ></Button>
+            
+            <Label x:Name="lblMessage" FontSize="Large"></Label>
+
+            <Button Text="Click Command Button" 
+                    BackgroundColor="Yellow"
+                    Command="{Binding ButtonCommand}"
+                    CommandParameter="Gildo Paruque"
+                    ></Button>
+            
+            <Button Text="Click Command Button" 
+                    BackgroundColor="Green"
+                    Command="{Binding ButtonCommand}"
+                    CommandParameter="Aldo Paruque"
+                    ></Button>
+
+
+            <Button
+                VerticalOptions="Center"
+                BackgroundColor="Transparent"
+                BorderColor="ForestGreen"
+                BorderWidth="1.5"
+                TextColor="White"
+                CornerRadius="50"
+                FontAttributes="Bold"
+                FontSize="Large"
+                Text="Save"
+                Clicked="Button_Clicked_1"
+                ></Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

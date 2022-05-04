@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyXamarinApp.Entries">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Text="Learning xamarin"></Entry>
+            <Entry Text="Learning Xamarin" IsReadOnly="True"></Entry>
+            <Entry Text="Xamarin Forms" Placeholder="Name"></Entry>
+            <Entry Text="Xamarin Forms" Placeholder="Name" PlaceholderColor="Red"></Entry>
+            <Entry Placeholder="Name" MaxLength="15"></Entry>
+            <Entry Placeholder="Password" IsPassword="True"></Entry>
+            <Entry Text="Xamarin" ReturnType="Search"></Entry>
+
+            <Entry x:Name="txtName"></Entry>
+
+            <Entry Completed="Entry_Complete"></Entry>
+
+            <Entry TextChanged="Entry_TextChanged"></Entry>
+
+            <Label x:Name="lblValue" FontSize="Large" TextColor="Red"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
