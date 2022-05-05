@@ -11,7 +11,7 @@ namespace MyXamarinApp
             InitializeComponent();
 
             //MainPage = new MainPage();
-            MainPage = new MyFlyoutPage();
+            MainPage = new ItemInfo();
         }
 
         protected override void OnStart()
