@@ -1,13 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MyXamarinApp"
              x:Class="MyXamarinApp.Images">
+    
     <ContentPage.Content>
         <StackLayout>
             <Image Source="Diagrama_Actividade_1.png" HeightRequest="200" WidthRequest="200"></Image>
             <Image x:Name="imgLogo" HeightRequest="200" WidthRequest="200"></Image>
 
             <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/58px-Windows_logo_-_2021.png" HeightRequest="200" WidthRequest="200"></Image>
+
+            <Image Source="{local:ImageResourse MyXamarinApp.Images.Duvidas.png}" HeightRequest="200" WidthRequest="200"></Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
