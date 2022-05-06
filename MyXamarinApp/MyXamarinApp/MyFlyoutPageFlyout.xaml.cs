@@ -37,7 +37,8 @@ namespace MyXamarinApp
                     new MyFlyoutPageFlyoutMenuItem { Id = 1, Title = "Entries", TargetType=typeof(Entries) },
                     new MyFlyoutPageFlyoutMenuItem { Id = 2, Title = "Buttons", TargetType=typeof(Buttons) },
                     new MyFlyoutPageFlyoutMenuItem { Id = 3, Title = "Images", TargetType=typeof(Images) },
-                    new MyFlyoutPageFlyoutMenuItem { Id = 3, Title = "Check Boxes", TargetType=typeof(CheckBoxes) }
+                    new MyFlyoutPageFlyoutMenuItem { Id = 3, Title = "Check Boxes", TargetType=typeof(CheckBoxes) },
+                    new MyFlyoutPageFlyoutMenuItem { Id = 3, Title = "Products", TargetType=typeof(ProductPage) }
 
                 });
             }
