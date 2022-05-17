@@ -58,7 +58,7 @@
 
                 <ListView.Footer>
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                        <Button Text="Load More" FontSize="Large" TextColor="Gray"></Button>
+                        <Button Text="Load More" CornerRadius="50" FontSize="Large" TextColor="Gray"></Button>
                     </StackLayout>
                 </ListView.Footer>
             </ListView>
